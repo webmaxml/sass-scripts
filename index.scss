@@ -1,7 +1,7 @@
-@use 'functions/number' as *;
+@use 'vars' as *;
 
 body {
-  font-size: to-px(22);
+  font-size: rgba(map-get($css, '--test'), 0.7);
 }
 
 

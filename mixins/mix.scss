@@ -1,7 +1,6 @@
 @use '../functions/types' as *;
 @use 'prop' as *;
 @use '../functions/number';
-@use '../functions/color';
 
 // <<{ screen-height-section - constructs height values for section to be screen size
 
@@ -29,7 +28,7 @@
 
 // <<{ overlay - sets colored overlay on the element background
 
-@mixin overlay($color-var, $opacity, $position: relative, $z: 0) {
+@mixin overlay($color, $opacity, $position: relative, $z: 0) {
   position: $position;
   z-index: $z;
 
@@ -45,7 +44,7 @@
     width: 100%;
     height: 100%;
 
-    background: color.set-opacity($color-var, $opacity);
+    background: rgba($color, $opacity);
   }
 }
 
