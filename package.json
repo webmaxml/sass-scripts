@@ -1,0 +1,22 @@
+{
+  "name": "sass-scripts",
+  "version": "1.0.0",
+  "description": "sass scripts",
+  "main": "index.js",
+  "scripts": {
+    "index": "sass index.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webmaxml/sass-scripts.git"
+  },
+  "author": "webmaxml",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webmaxml/sass-scripts/issues"
+  },
+  "homepage": "https://github.com/webmaxml/sass-scripts#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}
